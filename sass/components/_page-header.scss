@@ -1,0 +1,39 @@
+.page-header {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ececec;
+}
+& > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+    & > .container > nav {
+        display: flex;
+        gap: 93px;
+        align-items: center;
+
+        & > .container > aside {
+            display: flex;
+            gap: 50px;
+
+            & > .container > nav > .nav-list {
+                display: flex;
+                gap: 30px;
+
+                & > .container > nav > a {
+                    font-family: 'Raleway';
+                    font-weight: 700;
+                    font-size: 26px;
+                    line-height: 1.19;
+                    /* identical to box height */
+                    letter-spacing: 0.03em;
+                    color: $colorWeb;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
