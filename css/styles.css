@@ -9,6 +9,14 @@
     --verylightgrey: #afb1b8;
     --greybeinggradient: rgba(47, 48, 58, 0.4);
 }
+/*$colorHoveredFocusedIcon: #ffffff;
+$primaryColor: #ffffff;
+$colorBody: #212121;
+$colorIcon: #757575;
+$colorFooterWrapper: #2f303a;
+$colorAddress: #ffffff99;
+$colorSocialIcons: #afb1b8;
+$colorBackgroundSection: rgba(47, 48, 58, 0.4);*/
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--darkgrey);
@@ -709,6 +717,7 @@ figure {
     color: var(--dodgerblue);
     text-decoration: none;
 }
+
 .lorem-list {
     display: flex;
     list-style: none;
