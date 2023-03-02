@@ -37,7 +37,7 @@ figure {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-}
+} /*z*/
 .backdrop {
     position: fixed;
     top: 0;
@@ -100,72 +100,73 @@ figure {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--lightgrey);
-}
+} /*z*/
 .contacts a:hover,
 .contacts a:focus {
     color: var(--dodgerblue);
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
+.mail a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} /*z*/
 .mail a:hover svg {
     fill: var(--dodgerblue);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .mail a:focus svg {
     fill: var(--dodgerblue);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .envelope-icon {
     fill: var(--lightgrey);
-}
+} /*z*/
 .envelope-icon:hover,
 .envelope-icon:focus {
     fill: var(--dodgerblue);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
+.tel a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} /*z*/
 .tel a:hover svg {
     fill: var(--dodgerblue);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .tel a:hover svg {
     fill: var(--dodgerblue);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 
 .smartphone-icon {
     fill: var(--lightgrey);
-}
+} /*z*/
 .smartphone-icon:hover,
 .smartphone-icon:focus {
     fill: var(--dodgerblue);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.mail a {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.tel a {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
+} /*z*/
+
 .active-link {
     position: relative;
-}
+} /*z*/
 .active-link::after {
     content: '';
     width: 100%;
@@ -175,7 +176,7 @@ figure {
     border-radius: 2px;
     bottom: -36px;
     left: 0;
-}
+} /*z*/
 .slide-box {
     position: relative;
     overflow: hidden;
@@ -202,10 +203,10 @@ figure {
 }
 .offers {
     position: relative;
-}
+} /*z*/
 .offers img {
     vertical-align: bottom;
-}
+} /*z*/
 .offers p {
     width: 100%;
     text-align: center;
@@ -221,7 +222,7 @@ figure {
     background-color: rgba(47, 48, 58, 0.8);
     padding: 27px;
     bottom: 0;
-}
+} /*z*/
 .our-atributes {
     display: flex;
     align-items: center;
@@ -232,7 +233,7 @@ figure {
     background-color: #f5f4fa;
     padding: 30px 0px;
     margin-bottom: 30px;
-}
+} /*z*/
 .logos {
     fill: #afb1b8;
 }
@@ -278,7 +279,7 @@ figure {
     margin-bottom: 18px;
     margin-left: 32px;
     margin-right: 32px;
-}
+} /*z*/
 .join {
     font-style: normal;
     font-style: bold;
@@ -505,7 +506,7 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} /*z*/
 .instagram-icon:hover,
 .instagram-icon:focus {
     background-color: var(--dodgerblue);
@@ -513,13 +514,13 @@ figure {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .instagram-icon:hover svg {
     fill: var(--white);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 
 .twitter-icon {
     margin-right: 10px;
@@ -530,7 +531,7 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} /*z*/
 .twitter-icon:hover,
 .twitter-icon:focus {
     background-color: var(--dodgerblue);
@@ -538,13 +539,13 @@ figure {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .twitter-icon:hover svg {
     fill: var(--white);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .facebook-icon {
     margin-right: 10px;
     fill: var(--verylightgrey);
@@ -647,7 +648,7 @@ figure {
     align-items: center;
     padding-top: 200px;
     padding-bottom: 200px;
-}
+} /*z*/
 .first-heading {
     font-weight: 900;
     font-size: 44px;
@@ -657,7 +658,7 @@ figure {
     color: var(--white);
     text-align: center;
     padding-bottom: 30px;
-}
+} /*z*/
 .order {
     display: flex;
     flex-wrap: nowrap;
@@ -670,7 +671,7 @@ figure {
     border: none;
     cursor: pointer;
     padding: 10px 41px 10px 42px;
-}
+} /*z*/
 .text-order {
     font-weight: 700;
     font-size: 16px;
@@ -678,36 +679,36 @@ figure {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white);
-}
+} /*z*/
 
 .section {
     padding: 94px 0;
-}
+} /*z*/
 .page-header {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #ececec;
-}
+} /*z*/
 .page-header > .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 25px;
-}
+} /*z*/
 .page-header > .container > nav {
     display: flex;
     gap: 93px;
     align-items: center;
-}
+} /*z*/
 .page-header > .container > aside {
     display: flex;
     gap: 50px;
-}
+} /*z*/
 .page-header > .container > nav > .nav-list {
     display: flex;
     gap: 30px;
-}
+} /*z*/
 .page-header > .container > nav > a {
     font-family: 'Raleway';
     font-weight: 700;
@@ -717,14 +718,14 @@ figure {
     letter-spacing: 0.03em;
     color: var(--dodgerblue);
     text-decoration: none;
-}
+} /*z*/
 
 .lorem-list {
     display: flex;
     list-style: none;
     justify-content: center;
     gap: 30px;
-}
+} /*z*/
 .list {
     padding-bottom: 0px;
 }
@@ -750,14 +751,14 @@ figure {
 
 .studio-black {
     color: var(--black);
-}
+} /*z*/
 .studio-white {
     color: var(--white);
 }
 
 .nav-list {
     list-style: none;
-}
+} /*z*/
 .nav-list a {
     color: var(--darkgrey);
     text-decoration: none;
@@ -765,7 +766,7 @@ figure {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-}
+} /*z*/
 .nav-list .nav-link {
     text-decoration: none;
     font-weight: 500;
@@ -773,7 +774,7 @@ figure {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--dodgerblue);
-}
+} /*z*/
 
 .nav-list a:hover,
 .nav-list a:focus {
@@ -781,11 +782,11 @@ figure {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 
 .nav-link {
     color: var(--dodgerblue);
-}
+} /*z*/
 .button-list {
     display: flex;
     justify-content: center;
@@ -826,7 +827,7 @@ figure {
 .section-list {
     padding-top: 94px;
     padding-bottom: 0px;
-}
+} /*z*/
 .section-portfolio {
     padding-top: 50px;
     padding-bottom: 94px;
@@ -839,7 +840,7 @@ figure {
     text-align: center;
     padding-top: 94px;
     padding-bottom: 50px;
-}
+} /*z*/
 .second-heading-one {
     font-weight: 700;
     font-size: 36px;
@@ -847,7 +848,7 @@ figure {
     letter-spacing: 0.03em;
     text-align: center;
     padding-bottom: 50px;
-}
+} /*z*/
 
 .third-heading {
     font-weight: 700;
@@ -864,10 +865,10 @@ figure {
     justify-content: center;
     list-style: none;
     gap: 30px;
-}
+} /*z*/
 .section-cards {
     background-color: #f5f4fa;
-}
+} /*z*/
 .cards {
     display: flex;
     flex-direction: row;
@@ -875,7 +876,7 @@ figure {
     list-style: none;
     gap: 30px;
     padding-bottom: 94px;
-}
+} /*z*/
 .cards li {
     background: #ffffff;
     /* material shadow v1 */
@@ -1013,7 +1014,7 @@ figure {
     flex-direction: column;
     list-style: none;
     background-color: var(--white);
-}
+} /*z*/
 
 .image > .job-list {
     flex-grow: 1;
@@ -1032,7 +1033,7 @@ figure {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 5px;
-}
+} /*z*/
 
 .job-list span {
     font-size: 16px;
@@ -1042,4 +1043,4 @@ figure {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 30px;
-}
+} /*z*/

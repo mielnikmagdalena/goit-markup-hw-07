@@ -9,6 +9,14 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.nav-list a:hover,
+.nav-list a:focus {
+    color: $secondaryColor;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .nav-list .nav-link {
     text-decoration: none;
     font-weight: 500;
@@ -18,18 +26,10 @@
     color: $secondaryColor;
 }
 
-.nav-list a:hover,
-.nav-list a:focus {
-    color: $secondaryColor;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .nav-link {
     color: $secondaryColor;
 }
-.active-link {
+.nav-list__active-link {
     position: relative;
 }
 .active-link::after {

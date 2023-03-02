@@ -1,0 +1,102 @@
+.section-cards {
+    background-color: $colorBackgroundSectionCards;
+}
+&__second-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    padding-bottom: 94px;
+}
+&__job-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: $primaryColor;
+}
+.job-list h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--darkgrey);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.job-list span {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--lightgrey);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 18px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.social-media__instagram-icon {
+    fill: $colorSocialIcons;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+&:hover,
+&:focus {
+    background-color: $secondaryColor;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+&:hover svg {
+    fill: $primaryColor;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-media__twitter-icon {
+    margin-right: 10px;
+    fill: $colorSocialIcons;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+&:hover,
+&:focus {
+    background-color: $secondaryColor;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+&:hover svg {
+    fill: $primaryColor;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
