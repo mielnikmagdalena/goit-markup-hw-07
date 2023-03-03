@@ -1,7 +1,7 @@
 .section-cards {
     background-color: $colorBackgroundSectionCards;
 }
-&__second-heading {
+.section-cards__second-heading {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -18,7 +18,14 @@
     gap: 30px;
     padding-bottom: 94px;
 }
-&__job-list {
+.cards li {
+    background: $primaryColor;
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px $colorBackgroundBackdrop;
+    border-radius: 0px 0px 4px 4px;
+}
+.cards__job-list {
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -62,15 +69,15 @@
     justify-content: center;
     align-items: center;
 }
-&:hover,
-&:focus {
+.social-media__instagram-icon:hover,
+.social-media__instagram-icon:focus {
     background-color: $secondaryColor;
     cursor: pointer;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-&:hover svg {
+.social-media:hover svg {
     fill: $primaryColor;
     transition-property: fill;
     transition-duration: 250ms;
@@ -86,15 +93,63 @@
     justify-content: center;
     align-items: center;
 }
-&:hover,
-&:focus {
+.social-media:hover,
+.social-media:focus {
     background-color: $secondaryColor;
     cursor: pointer;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-&:hover svg {
+.social-media:hover svg {
+    fill: $primaryColor;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-media__facebook-icon {
+    margin-right: 10px;
+    fill: $colorSocialIcons;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media:hover,
+.social-media:focus {
+    background-color: $secondaryColor;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-media:hover svg {
+    fill: $primaryColor;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-media__linkedin-icon {
+    margin-right: 10px;
+    fill: $colorSocialIcons;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media:hover,
+.social-media:focus {
+    background-color: $secondaryColor;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-media:hover svg {
     fill: $primaryColor;
     transition-property: fill;
     transition-duration: 250ms;

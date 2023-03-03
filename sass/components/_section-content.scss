@@ -8,7 +8,7 @@
     background-size: cover;
     background-color: $colorFooterWrapper;
 }
-&__first-heading {
+.section-content__first-heading {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -38,7 +38,7 @@
     cursor: pointer;
     padding: 10px 41px 10px 42px;
 }
-&__text-order {
+.order__text-order {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;

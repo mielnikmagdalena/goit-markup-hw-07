@@ -1,7 +1,7 @@
 .section {
     padding: 94px 0;
 }
-&__second-heading-one {
+.section__second-heading-one {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -19,10 +19,10 @@
 .images__offers {
     position: relative;
 }
-& img {
+.images__offers--img {
     vertical-align: bottom;
 }
-& p {
+.images__offers--p {
     width: 100%;
     text-align: center;
     position: absolute;

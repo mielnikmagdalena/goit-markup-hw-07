@@ -236,12 +236,12 @@ figure {
 } /*z*/
 .logos {
     fill: #afb1b8;
-}
+} /*z*/
 .signs {
     padding: 15px 32px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-}
+} /*z*/
 
 .signs:hover,
 .signs:focus {
@@ -250,25 +250,25 @@ figure {
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .signs:hover svg,
 .signs:focus svg {
     fill: var(--dodgerblue);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 
 .clients {
     background-color: var(--white);
-}
+} /*z*/
 .container-clients {
     display: flex;
     gap: 30px;
     align-items: center;
     justify-content: center;
     list-style: none;
-}
+} /*z*/
 
 .social-media {
     display: flex;
@@ -555,7 +555,7 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} /*z*/
 .facebook-icon:hover,
 .facebook-icon:focus {
     background-color: var(--dodgerblue);
@@ -563,13 +563,13 @@ figure {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .facebook-icon:hover svg {
     fill: var(--white);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .linkedin-icon {
     margin-right: 10px;
     fill: var(--verylightgrey);
@@ -579,7 +579,7 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} /*z*/
 .linkedin-icon:hover,
 .linkedin-icon:focus {
     background-color: var(--dodgerblue);
@@ -587,13 +587,13 @@ figure {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .linkedin-icon:hover svg {
     fill: var(--white);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .instagram {
     margin-right: 10px;
     border-radius: 50%;
@@ -754,7 +754,7 @@ figure {
 } /*z*/
 .studio-white {
     color: var(--white);
-}
+} /*z*/
 
 .nav-list {
     list-style: none;
@@ -858,7 +858,7 @@ figure {
     text-align: center;
     padding-top: 0px;
     padding-bottom: 50px;
-}
+} /*z*/
 .images {
     display: flex;
     flex-direction: row;
@@ -883,7 +883,7 @@ figure {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
+} /*z*/
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -892,7 +892,7 @@ figure {
     letter-spacing: 0.03em;
     color: var(--dodgerblue);
     text-decoration: none;
-}
+} /*z*/
 
 .footer {
     display: flex;
@@ -900,33 +900,33 @@ figure {
     justify-content: flex-start;
     padding-top: 60px;
     padding-bottom: 60px;
-}
+} /*z*/
 
 .footer-wrapper {
     font-style: normal;
     background-color: var(--verydarkgrey);
-}
+} /*z*/
 .footer-wrapper .company-info {
     background-color: var(--verydarkgrey);
     color: var(--white);
-}
+} /*z*/
 .company-info span {
     font-style: normal;
     padding-top: 20px;
     padding-bottom: 9px;
-}
+} /*z*/
 .two-elements {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 70px;
-}
+} /*z*/
 .four-elements {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 60px;
-}
+} /*z*/
 
 .address {
     font-size: 14px;
@@ -940,7 +940,7 @@ figure {
     justify-content: flex-start;
     font-style: normal;
     padding-top: 9px;
-}
+} /*z*/
 .second-contacts a {
     text-decoration: none;
     font-size: 14px;
@@ -948,7 +948,7 @@ figure {
     letter-spacing: 0.03em;
     color: var(--clearwhite);
     padding-bottom: 9px;
-}
+} /*z*/
 
 .second-contacts span {
     font-size: 14px;
@@ -957,14 +957,14 @@ figure {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--clearwhite);
-}
+} /*z*/
 .second-contacts a:hover,
 .second-contacts a:focus {
     color: var(--dodgerblue);
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .section {
     padding: 94px 0;
 }

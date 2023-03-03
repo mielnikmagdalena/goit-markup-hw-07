@@ -6,8 +6,8 @@
     letter-spacing: 0.02em;
     color: $colorIcon;
 }
-&:hover,
-&:focus {
+.contacts a:hover,
+.contacts a:focus {
     color: $secondaryColor;
     transition-property: color;
     transition-duration: 250ms;
@@ -18,13 +18,13 @@
     align-items: center;
     gap: 10px;
 }
-&:hover svg {
+.contacts__mail:hover svg {
     fill: $secondaryColor;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-&:focus svg {
+.contacts__mail:focus svg {
     fill: $secondaryColor;
     transition-property: fill;
     transition-duration: 250ms;
@@ -33,8 +33,8 @@
 .contacts__envelope-icon {
     fill: $colorIcon;
 }
-&:hover,
-&:focus {
+.contacts__envelope-icon:hover,
+.contacts__envelope-icon:focus {
     fill: $secondaryColor;
     transition-property: fill;
     transition-duration: 250ms;
@@ -45,13 +45,13 @@
     align-items: center;
     gap: 10px;
 }
-&:hover svg {
+.contacts__tel:hover svg {
     fill: $secondaryColor;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-&:hover svg {
+.contacts__tel:hover svg {
     fill: $secondaryColor;
     transition-property: fill;
     transition-duration: 250ms;
@@ -60,8 +60,8 @@
 .contacts__smartphone-icon {
     fill: $colorIcon;
 }
-&:hover,
-&:focus {
+.contacts__smartphone-icon:hover,
+.contacts__smartphone-icon:focus {
     fill: $secondaryColor;
     transition-property: fill;
     transition-duration: 250ms;
