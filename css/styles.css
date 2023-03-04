@@ -51,7 +51,7 @@ figure {
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .close-btn {
     position: absolute;
     top: 8px;
@@ -62,7 +62,7 @@ figure {
     cursor: pointer;
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.1);
-}
+} /*z*/
 .modal {
     position: relative;
     width: 100%;
@@ -72,14 +72,14 @@ figure {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-}
+} /*z*/
 
 .is-hidden {
     pointer-events: none;
     visibility: hidden;
     opacity: 0;
     transform: scale(0);
-}
+} /*z*/
 .section-content {
     max-width: 1600px;
     margin: 0 auto;
@@ -92,7 +92,7 @@ figure {
     background-position: center;
     background-size: cover;
     background-color: var(--verydarkgrey);
-}
+} /*z*/
 .contacts a {
     text-decoration: none;
     font-weight: 500;
@@ -288,11 +288,11 @@ figure {
     letter-spacing: 0.03em;
     color: var(--white);
     padding-bottom: 20px;
-}
+} /*z*/
 .join-us {
     gap: 10px;
     display: flex;
-}
+} /*z*/
 .join-us-svg {
     background: rgba(255, 255, 255, 0.1);
     width: 44px;
@@ -302,7 +302,7 @@ figure {
     justify-content: center;
     align-items: center;
     fill: var(--white);
-}
+} /*z*/
 .join-us-svg:hover,
 .join-us-svg:focus {
     background-color: var(--dodgerblue);
@@ -310,7 +310,7 @@ figure {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .label-newsletter {
     display: flex;
     flex-direction: column;
@@ -321,7 +321,7 @@ figure {
     text-transform: uppercase;
     color: #ffffff;
     gap: 20px;
-}
+} /*z*/
 .label-personal-data {
     font-weight: 400;
     font-size: 12px;
@@ -334,19 +334,19 @@ figure {
     position: relative;
     margin-left: 40px;
     padding-top: 10px;
-}
+} /*z*/
 .svg-personal-data {
     position: absolute;
     bottom: 11px;
     left: 12px;
     fill: #212121;
-}
+} /*z*/
 .input-personal-data:focus + .svg-personal-data {
     fill: #2196f3;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .command {
     font-weight: 700;
     font-size: 20px;
@@ -354,7 +354,7 @@ figure {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-}
+} /*z*/
 .textarea-command {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -367,13 +367,13 @@ figure {
     line-height: 1.16;
     letter-spacing: 0.01em;
     padding: 12px 16px 12px 16px;
-}
+} /*z*/
 .textarea-command:focus {
     border: 1px solid #2196f3;
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 .input-personal-data {
     box-sizing: border-box;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -385,13 +385,13 @@ figure {
     padding-top: 4px;
     padding-left: 42px;
     outline: none;
-}
+} /*z*/
 .input-personal-data:focus {
     border: 1px solid #2196f3;
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} /*z*/
 
 .statement {
     font-weight: 400;
@@ -407,25 +407,25 @@ figure {
     height: 15px;
     margin-top: 20px;
     outline: none;
-}
+} /*z*/
 .statement:checked {
     background-color: #2196f3;
     border-color: #2196f3;
-}
+} /*z*/
 .send {
     position: relative;
     margin-top: 20px;
     margin-left: 54px;
     cursor: pointer;
-}
+} /*z*/
 .box {
     position: absolute;
     top: 3px;
     left: 3px;
-}
+} /*z*/
 .reference {
     color: #2196f3;
-}
+} /*z*/
 .email {
     width: 358px;
     height: 50px;
@@ -439,14 +439,14 @@ figure {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     padding: 15px 295px 15px 16px;
-}
+} /*z*/
 .newsletter-form {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
     gap: 12px;
-}
+} /*z*/
 .button-send {
     font-weight: 700;
     font-size: 16px;
@@ -471,7 +471,7 @@ figure {
     margin-right: 164px;
     outline: none;
     cursor: pointer;
-}
+} /*z*/
 .subscribe {
     font-weight: 700;
     font-size: 16px;
@@ -493,11 +493,11 @@ figure {
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-}
+} /*z*/
 .arrow {
     position: absolute;
     right: 13px;
-}
+} /*z*/
 .instagram-icon {
     fill: var(--verylightgrey);
     width: 44px;
