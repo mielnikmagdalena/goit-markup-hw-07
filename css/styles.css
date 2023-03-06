@@ -587,53 +587,6 @@ figure {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 } /*z*/
-/*.instagram {
-    margin-right: 10px;
-    border-radius: 50%;
-    fill: var(--white);
-    background-color: var(--verylightgrey);
-}
-.instagram:hover,
-.instagram:focus {
-    background-color: var(--dodgerblue);
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.twitter {
-    margin-right: 10px;
-    fill: var(--white);
-}
-.twitter:hover,
-.twitter:focus {
-    fill: var(--dodgerblue);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.facebook {
-    margin-right: 10px;
-    fill: var(--white);
-}
-.facebook:hover,
-.facebook:focus {
-    fill: var(--dodgerblue);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.linkedin {
-    margin-right: 10px;
-    fill: var(--white);
-}
-.linkedin:hover,
-.linkedin:focus {
-    fill: var(--dodgerblue);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}*/
 
 .heading {
     display: flex;
