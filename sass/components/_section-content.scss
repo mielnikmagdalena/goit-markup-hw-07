@@ -7,16 +7,17 @@
     background-position: center;
     background-size: cover;
     background-color: $colorFooterWrapper;
-}
-.section-content__first-heading {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: $primaryColor;
-    text-align: center;
-    padding-bottom: 30px;
+
+    &__first-heading {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: $primaryColor;
+        text-align: center;
+        padding-bottom: 30px;
+    }
 }
 .heading {
     display: flex;
@@ -37,12 +38,13 @@
     border: none;
     cursor: pointer;
     padding: 10px 41px 10px 42px;
-}
-.order__text-order {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: $primaryColor;
+
+    &__text-order {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: $primaryColor;
+    }
 }

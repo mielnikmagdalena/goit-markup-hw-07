@@ -36,7 +36,7 @@
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: var(--darkgrey);
+    color: $mainColor;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 5px;
@@ -45,7 +45,7 @@
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: var(--lightgrey);
+    color: $colorIcon;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 30px;
@@ -59,99 +59,103 @@
     margin-bottom: 18px;
     margin-left: 32px;
     margin-right: 32px;
-}
-.social-media__instagram-icon {
-    fill: $colorSocialIcons;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.social-media__instagram-icon:hover,
-.social-media__instagram-icon:focus {
-    background-color: $secondaryColor;
-    cursor: pointer;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-media:hover svg {
-    fill: $primaryColor;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-media__twitter-icon {
-    margin-right: 10px;
-    fill: $colorSocialIcons;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.social-media:hover,
-.social-media:focus {
-    background-color: $secondaryColor;
-    cursor: pointer;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-media:hover svg {
-    fill: $primaryColor;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-media__facebook-icon {
-    margin-right: 10px;
-    fill: $colorSocialIcons;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.social-media:hover,
-.social-media:focus {
-    background-color: $secondaryColor;
-    cursor: pointer;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-media:hover svg {
-    fill: $primaryColor;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-media__linkedin-icon {
-    margin-right: 10px;
-    fill: $colorSocialIcons;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.social-media:hover,
-.social-media:focus {
-    background-color: $secondaryColor;
-    cursor: pointer;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-media:hover svg {
-    fill: $primaryColor;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &__instagram-icon {
+        fill: $colorSocialIcons;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__instagram-icon:hover,
+        &__instagram-icon:focus {
+            background-color: $secondaryColor;
+            cursor: pointer;
+            transition-property: background-color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+    &__instagram-icon:hover svg {
+        fill: $primaryColor;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &__twitter-icon {
+        margin-right: 10px;
+        fill: $colorSocialIcons;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__twitter-icon:hover,
+    &__twitter-icon:focus {
+        background-color: $secondaryColor;
+        cursor: pointer;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &__twitter-icon:hover svg {
+        fill: $primaryColor;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__facebook-icon {
+        margin-right: 10px;
+        fill: $colorSocialIcons;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__facebook-icon:hover,
+    &__facebook-icon:focus {
+        background-color: $secondaryColor;
+        cursor: pointer;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &__facebook-icon:hover svg {
+        fill: $primaryColor;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__linkedin-icon {
+        margin-right: 10px;
+        fill: $colorSocialIcons;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__linkedin-icon:hover,
+    &__linkedin-icon:focus {
+        background-color: $secondaryColor;
+        cursor: pointer;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &__linkedin-icon:hover svg {
+        fill: $primaryColor;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }

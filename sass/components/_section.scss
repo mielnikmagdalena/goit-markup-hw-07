@@ -15,26 +15,27 @@
     justify-content: center;
     list-style: none;
     gap: 30px;
-}
-.images__offers {
-    position: relative;
-}
-.images__offers--img {
-    vertical-align: bottom;
-}
-.images__offers--p {
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: $primaryColor;
-    background-color: rgba(47, 48, 58, 0.8);
-    padding: 27px;
-    bottom: 0;
+
+    &__offers {
+        position: relative;
+    }
+    &__offers--img {
+        vertical-align: bottom;
+    }
+    &__offers--p {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $primaryColor;
+        background-color: rgba(47, 48, 58, 0.8);
+        padding: 27px;
+        bottom: 0;
+    }
 }

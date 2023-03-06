@@ -5,65 +5,71 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: $colorIcon;
-}
-.contacts a:hover,
-.contacts a:focus {
-    color: $secondaryColor;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: $secondaryColor;
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 .contacts__mail {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-.contacts__mail:hover svg {
-    fill: $secondaryColor;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contacts__mail:focus svg {
-    fill: $secondaryColor;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover svg {
+        fill: $secondaryColor;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &:focus svg {
+        fill: $secondaryColor;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 .contacts__envelope-icon {
     fill: $colorIcon;
-}
-.contacts__envelope-icon:hover,
-.contacts__envelope-icon:focus {
-    fill: $secondaryColor;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        fill: $secondaryColor;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 .contacts__tel {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-.contacts__tel:hover svg {
-    fill: $secondaryColor;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contacts__tel:hover svg {
-    fill: $secondaryColor;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover svg {
+        fill: $secondaryColor;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &:hover svg {
+        fill: $secondaryColor;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 .contacts__smartphone-icon {
     fill: $colorIcon;
-}
-.contacts__smartphone-icon:hover,
-.contacts__smartphone-icon:focus {
-    fill: $secondaryColor;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        fill: $secondaryColor;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }

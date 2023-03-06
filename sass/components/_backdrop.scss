@@ -26,7 +26,7 @@
     height: 30px;
     border-radius: 50%;
     cursor: pointer;
-    background: #ffffff;
+    background: $primaryColor;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .modal {
@@ -131,18 +131,20 @@
     height: 15px;
     margin-top: 20px;
     outline: none;
-}
-.send__statement:checked {
-    background-color: $secondaryColor;
-    border-color: $secondaryColor;
-}
-.send__statement--box {
-    position: absolute;
-    top: 3px;
-    left: 3px;
-}
-.send__statement--reference {
-    color: $secondaryColor;
+
+    &:checked {
+        background-color: $secondaryColor;
+        border-color: $secondaryColor;
+    }
+
+    &--box {
+        position: absolute;
+        top: 3px;
+        left: 3px;
+    }
+    &--reference {
+        color: $secondaryColor;
+    }
 }
 .modal__button-send {
     font-weight: 700;
