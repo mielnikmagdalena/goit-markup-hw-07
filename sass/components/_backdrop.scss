@@ -18,17 +18,7 @@
     opacity: 0;
     transform: scale(0);
 }
-.close-btn {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    cursor: pointer;
-    background: $primaryColor;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
+
 .modal {
     position: relative;
     width: 100%;
@@ -39,7 +29,7 @@
         0px 2px 1px $colorBackgroundBackdrop;
     border-radius: 4px;
 }
-.command {
+.modal__command {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;

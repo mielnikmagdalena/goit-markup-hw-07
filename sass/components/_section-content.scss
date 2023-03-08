@@ -1,23 +1,20 @@
 .section-content {
     max-width: 1600px;
     margin: 0 auto;
-    background-image: linear-gradient$colorBackgroundSection,
-        $colorBackgroundSection, url('../images/office.jpg');
+    background-image: linear-gradient(
+            var(--greybeinggradient),
+            var(--greybeinggradient)
+        ),
+        url('../images/office.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: $colorFooterWrapper;
-
-    &__first-heading {
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: $primaryColor;
-        text-align: center;
-        padding-bottom: 30px;
-    }
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .heading {
     display: flex;
@@ -26,6 +23,17 @@
     padding-top: 200px;
     padding-bottom: 200px;
 }
+.section-content__first-heading {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $primaryColor;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
 .order {
     display: flex;
     flex-wrap: nowrap;
@@ -38,13 +46,12 @@
     border: none;
     cursor: pointer;
     padding: 10px 41px 10px 42px;
-
-    &__text-order {
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.88;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: $primaryColor;
-    }
+}
+.order__text-order {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: $primaryColor;
 }

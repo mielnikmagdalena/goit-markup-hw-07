@@ -2,9 +2,10 @@
     font-style: normal;
     background-color: $colorFooterWrapper;
 }
-.footer-wrapper .company-info {
-    background-color: $colorFooterWrapper;
-    color: $primaryColor;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .footer {
     display: flex;
@@ -13,6 +14,11 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.footer-wrapper .company-info {
+    background-color: $colorFooterWrapper;
+    color: $primaryColor;
+}
+
 .four-elements {
     display: flex;
     justify-content: flex-start;
