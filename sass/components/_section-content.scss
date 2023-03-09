@@ -2,8 +2,8 @@
     max-width: 1600px;
     margin: 0 auto;
     background-image: linear-gradient(
-            var(--greybeinggradient),
-            var(--greybeinggradient)
+            $colorBackgroundSection,
+            $colorBackgroundSection
         ),
         url('../images/office.jpg');
     background-repeat: no-repeat;
