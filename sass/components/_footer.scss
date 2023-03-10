@@ -14,10 +14,6 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.footer-wrapper .company-info {
-    background-color: $colorFooterWrapper;
-    color: $primaryColor;
-}
 
 .four-elements {
     display: flex;
@@ -44,6 +40,10 @@
         color: $primaryColor;
     }
 }
+.footer-wrapper .company-info {
+    background-color: $colorFooterWrapper;
+    color: $primaryColor;
+}
 .two-elements__company-info {
     font-style: normal;
     padding-top: 20px;
@@ -57,7 +57,7 @@
         padding-top: 9px;
     }
 }
-.second-contacts a {
+.two-elements__company-info--second-contacts a {
     text-decoration: none;
     font-size: 14px;
     line-height: 1.71;
