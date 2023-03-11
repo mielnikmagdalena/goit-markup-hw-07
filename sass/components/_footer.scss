@@ -2,6 +2,7 @@
     font-style: normal;
     background-color: $colorFooterWrapper;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -39,10 +40,6 @@
     &--studio-white {
         color: $primaryColor;
     }
-}
-.footer-wrapper .company-info {
-    background-color: $colorFooterWrapper;
-    color: $primaryColor;
 }
 .two-elements__company-info {
     font-style: normal;
