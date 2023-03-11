@@ -1,7 +1,12 @@
 .footer-wrapper {
     font-style: normal;
     background-color: $colorFooterWrapper;
+    .two-elements__company-info {
+        background-color: $colorFooterWrapper;
+        color: $primaryColor;
+    }
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -40,10 +45,7 @@
         color: $primaryColor;
     }
 }
-.footer-wrapper .two-elements__company-info {
-    background-color: $colorFooterWrapper;
-    color: $primaryColor;
-}
+
 .two-elements__company-info {
     font-style: normal;
     padding-top: 20px;
@@ -81,7 +83,7 @@
     letter-spacing: 0.03em;
     color: $colorAddress;
 }
-.join {
+.four-elements__join {
     font-style: normal;
     font-style: bold;
     font-size: 14px;
