@@ -10,6 +10,11 @@
     padding-top: 94px;
     padding-bottom: 50px;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .cards {
     display: flex;
     flex-direction: row;
@@ -31,7 +36,7 @@
     list-style: none;
     background-color: $primaryColor;
 }
-.job-list h3 {
+.cards__job-list h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -41,7 +46,7 @@
     padding-top: 15px;
     padding-bottom: 5px;
 }
-.job-list span {
+.cards__job-list span {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -68,15 +73,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
 
-        &__instagram-icon:hover,
-        &__instagram-icon:focus {
-            background-color: $secondaryColor;
-            cursor: pointer;
-            transition-property: background-color;
-            transition-duration: 250ms;
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        }
+    &__instagram-icon:hover,
+    &__instagram-icon:focus {
+        background-color: $secondaryColor;
+        cursor: pointer;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     &__instagram-icon:hover svg {
         fill: $primaryColor;
