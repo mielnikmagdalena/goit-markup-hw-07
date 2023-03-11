@@ -7,7 +7,7 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
         />
-        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="./css/main.min.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -20,7 +20,7 @@
             <div class="container">
                 <nav>
                     <a href="index.html"
-                        >Web<span class="studio-black">Studio</span></a
+                        >Web<span class="container__studio-black">Studio</span></a
                     >
                     <ul class="nav-list">
                         <li><a href="#">Agencja</a></li>
@@ -33,14 +33,14 @@
                     </ul>
                 </nav>
                 <aside class="contacts">
-                    <div class="mail">
-                    <a href="mailto:info@devstudio.com"><svg class="envelope-icon" width="16" height="12">
+                    <div class="contacts__mail">
+                    <a href="mailto:info@devstudio.com"><svg class="contacts__envelope-icon" width="16" height="12">
                         <use href="./images/icons.svg#message"></use>
                     </svg>info@devstudio.com</a>
                     
                     </div>
-                    <div class="tel">
-                    <a href="tel:48111111111"><svg class="smartphone-icon" width="10" height="16">
+                    <div class="contacts__tel">
+                    <a href="tel:48111111111"><svg class="contacts__smartphone-icon" width="10" height="16">
                         <use href="./images/icons.svg#phone"></use>
                         </svg>+48 111 111 111</a>
                     </div>
@@ -60,7 +60,7 @@
             <section class="section-portfolio">
                 <div class="container list">
                     <ul class="project-list">
-                        <li class="project-list-item">
+                        <li class="project-list__project-list-item">
                             <figure>
                                 <div class="slide-box"><img
                                     src="images/three-people.jpg"
@@ -209,33 +209,31 @@
             </section>
         </main>
         <footer class="footer-wrapper">
-    
             <div class="container footer">
                 <div class="four-elements">
-                    
-           <div class="two-elements"><div> <a class="logo" href="index.html"
-                >Web<span class="studio-white">Studio</span></a
+           <div class="two-elements"><div> <a class="two-elements__logo" href="index.html"
+                >Web<span class="two-elements__logo--studio-white">Studio</span></a
             >
-            <address class="company-info">
+            <address class="two-elements__company-info">
                 <span>m. Warszawa, Aleje Jerozolimskie 21</span>
-                <div class="second-contacts">
+                <div class="two-elements__company-info--second-contacts">
                     <a href="info@example.com">info@example.com</a>
                     <a href="+48111111111">+48 111 111 111</a></div>
                 </address>
                 </div>
                 <div>
-                    <h4 class="join">DOŁĄCZ DO NAS</h4>
+                    <h4 class="four-elements__join">DOŁĄCZ DO NAS</h4>
                     <div class="join-us">
-                       <a class="join-us-svg" href="#"><svg width="20" height="20">
+                       <a class="join-us__join-us-svg" href="#"><svg width="20" height="20">
                         <use href="./images/icons.svg#instagram"></use>
                     </svg></a>
-                    <a class="join-us-svg" href="#"><svg width="20" height="20">
+                    <a class="join-us__join-us-svg" href="#"><svg width="20" height="20">
                         <use href="./images/icons.svg#twitter"></use>
                     </svg></a>
-                    <a class="join-us-svg" href="#"><svg width="20" height="20">
+                    <a class="join-us__join-us-svg" href="#"><svg width="20" height="20">
                         <use href="./images/icons.svg#facebook"></use>
                     </svg></a>
-                    <a class="join-us-svg" href="#"><svg width="20" height="20">
+                    <a class="join-us__join-us-svg" href="#"><svg width="20" height="20">
                         <use class="join-us-svg" href="./images/icons.svg#likedin"></use>
                     </svg></a></div>
                     
@@ -243,9 +241,9 @@
                     <form class="newsletter-form">
                         <label class="label-newsletter">
                           ZAPISZ SIĘ DO NEWSLETTERA
-                          <input class="email" type="email" name="email" placeholder="E-mail">
+                          <input class="label-newsletter__email" type="email" name="email" placeholder="E-mail">
                         </label>
-                        <button class="subscribe" type="submit">Zapisz się<svg class="arrow" width="24" height="24">
+                        <button class="subscribe" type="submit">Zapisz się<svg class="subscribe__arrow" width="24" height="24">
                             <use href="./images/icons.svg#icon-icon-send"></use>
                         </svg></button>
                     </form>

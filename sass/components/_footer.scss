@@ -5,19 +5,19 @@
         background-color: $colorFooterWrapper;
         color: $primaryColor;
     }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-}
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .four-elements {
